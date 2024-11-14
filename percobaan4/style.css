@@ -1,0 +1,75 @@
+/* b23 */
+
+*{
+    font-family:'Courier New', Courier, monospace;
+} 
+h1{
+    color: red;
+}
+p{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+p.paragraf{
+    color: orange;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    line-height: 1.5cm;
+}
+span{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+/* c1 */
+body{
+    background-color: darkslateblue;
+}
+/* c3 */
+body{
+    background-image: url('img/c1fe82610650508a7a68d11c158d606b.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* D2 */
+div{
+    border: 2px black solid;
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+div.box-1{
+    background-color: darksalmon;
+}
+dic.box-2{
+    background-color: black;
+    color: white;
+}
+div.box-3{
+    background-color: greenyellow;
+}
+/* E2 */
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    padding: 10px;
+    gap: 5px;
+}
+.flex-container{
+    padding: 10px;
+    margin: 7px;
+    width: 800px;
+    border: 2px black solid;
+    
+}
+
+.flex-container div{
+    background-color: gray;
+}
